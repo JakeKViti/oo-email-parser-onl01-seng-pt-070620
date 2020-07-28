@@ -10,7 +10,7 @@ def initialize(emails)
 end
 
 def parse
-  test - []
+  test = []
   test.push(@emails.scan(/\w+@+w/))
   return test
   #emails = @emails.split(", ")
