@@ -13,9 +13,7 @@ def initialize(emails)
 end
 
 def parse
-  test = []
-  test.push(@emails)
-  return test
+  return @@test
 end
 
 end
