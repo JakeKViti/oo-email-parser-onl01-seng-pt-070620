@@ -11,7 +11,7 @@ end
 
 def parse
   test = []
-  return @emails.
+  return test.push(@emails)
 end
 
 end
