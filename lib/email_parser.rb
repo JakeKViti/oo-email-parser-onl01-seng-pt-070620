@@ -10,6 +10,7 @@ def initialize(emails)
 end
 
 def parse
+  test = []
   return @emails.
 end
 
