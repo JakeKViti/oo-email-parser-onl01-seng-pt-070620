@@ -10,8 +10,8 @@ def initialize(emails)
 end
 
 def parse
-  test = @emails.split(", ")
-  test1 = @emails.split(" ")
+  emails = @emails.split(", ")
+  email = @emails.split(" ")
 end
 
 end
