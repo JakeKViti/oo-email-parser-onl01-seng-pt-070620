@@ -11,7 +11,7 @@ end
 
 def parse
 
-  return @emails.scan(/\w+test.com/)
+  return @emails.scan(/\w+.com/)
 
   #emails = @emails.split(", ")
   #email = @emails.split(" ")
