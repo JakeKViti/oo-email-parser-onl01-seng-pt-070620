@@ -11,8 +11,6 @@ end
 
 def parse
   test = @emails.split(", ")
-  #test1 = test.split()
-  return test
 end
 
 end
