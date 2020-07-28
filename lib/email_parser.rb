@@ -5,13 +5,16 @@
 class EmailAddressParser
   attr_accessor :emails
 
+@@test = []
+
 def initialize(emails)
   @emails = emails
+  @@test << @emails
 end
 
 def parse
   test = []
-  test.push("#{@emails}, ")
+  test.push(@emails)
   return test
 end
 
