@@ -10,7 +10,9 @@ def initialize(emails)
 end
 
 def parse
-  emails = @emails.split(", ").strip()
+  @emails.scan(/\w+@+w/)
+
+  #emails = @emails.split(", ")
   #email = @emails.split(" ")
 end
 
