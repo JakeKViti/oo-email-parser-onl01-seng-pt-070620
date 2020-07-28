@@ -11,7 +11,8 @@ end
 
 def parse
   test = []
-  return test.join(@emails)
+  test.join(@emails)
+  return test
 end
 
 end
