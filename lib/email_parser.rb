@@ -14,7 +14,7 @@ def parse
   return @emails
 
   #emails = @emails.split(", ")
-  #email = @emails.split(" ")
+  email = @emails.split(" ")
 end
 
 end
