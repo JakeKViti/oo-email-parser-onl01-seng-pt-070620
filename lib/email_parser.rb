@@ -15,7 +15,7 @@ def parse
   emails = @emails.split(", ")
   @emails = emails.to_s
   email = @emails.split(" ")
-  return email.ta_a
+  return emails
 end
 
 end
