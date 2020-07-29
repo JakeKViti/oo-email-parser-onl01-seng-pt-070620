@@ -12,6 +12,7 @@ end
 def parse
   emails = @emails.split(", ").join(" ")
   email = emails.split(" ")
+  email.uniq
 end
 
 end
