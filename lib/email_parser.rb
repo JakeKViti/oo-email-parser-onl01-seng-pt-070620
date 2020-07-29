@@ -13,7 +13,7 @@ def parse
 
   return @emails
   emails = @emails.split(", ")
-  @emails = emails.to_s
+  @emails = emails
   email = @emails.split(" ")
   return emails
 end
