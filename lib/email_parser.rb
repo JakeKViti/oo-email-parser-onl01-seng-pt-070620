@@ -12,10 +12,9 @@ end
 def parse
 
   return @emails
-  return emails = @emails.split(", ")
-  @emails = emails
+
+  emails = @emails.split(", ")
   email = @emails.split(" ")
-  return emails
 end
 
 end
